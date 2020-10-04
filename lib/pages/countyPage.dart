@@ -88,50 +88,59 @@ class _CountryPageState extends State<CountryPage> {
                           ],
                         ),
                       ),
+                      SizedBox(
+                        height: 5,
+                      ),
                       Expanded(
-                          child: Container(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceAround,
-                          children: <Widget>[
-                            Text(
-                              'CONFIRMED:' +
-                                  countryData[index]['cases']
-                                      .toString()
-                                      .replaceAllMapped(reg, mathFunc),
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white),
-                            ),
-                            Text(
-                              'ACTIVE:' +
-                                  countryData[index]['active']
-                                      .toString()
-                                      .replaceAllMapped(reg, mathFunc),
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white),
-                            ),
-                            Text(
-                              'RECOVERED:' +
-                                  countryData[index]['recovered']
-                                      .toString()
-                                      .replaceAllMapped(reg, mathFunc),
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white),
-                            ),
-                            Text(
-                              'DEATHS:' +
-                                  countryData[index]['deaths']
-                                      .toString()
-                                      .replaceAllMapped(reg, mathFunc),
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white),
-                            ),
-                          ],
+                        child: Container(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: <Widget>[
+                              Text(
+                                'CONFIRMED:' +
+                                    countryData[index]['cases']
+                                        .toString()
+                                        .replaceAllMapped(reg, mathFunc),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                    fontSize: 12),
+                              ),
+                              Text(
+                                'ACTIVE:' +
+                                    countryData[index]['active']
+                                        .toString()
+                                        .replaceAllMapped(reg, mathFunc),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                    fontSize: 12),
+                              ),
+                              Text(
+                                'RECOVERED:' +
+                                    countryData[index]['recovered']
+                                        .toString()
+                                        .replaceAllMapped(reg, mathFunc),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                    fontSize: 12),
+                              ),
+                              Text(
+                                'DEATHS:' +
+                                    countryData[index]['deaths']
+                                        .toString()
+                                        .replaceAllMapped(reg, mathFunc),
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                    fontSize: 12),
+                              ),
+                            ],
+                          ),
                         ),
-                      ))
+                      )
                     ],
                   ),
                 );

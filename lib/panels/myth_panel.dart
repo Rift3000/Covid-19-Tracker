@@ -31,7 +31,7 @@ class _MythBustersState extends State<MythBusters> {
                         DataSource.questionAnswers[index]['question'],
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 17,
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
@@ -44,7 +44,7 @@ class _MythBustersState extends State<MythBusters> {
                     margin: EdgeInsets.symmetric(horizontal: 7),
                     child: Text(DataSource.questionAnswers[index]['answer'],
                         style: TextStyle(
-                            fontSize: 15,
+                            fontSize: 13,
                             color: Colors.white,
                             fontWeight: FontWeight.bold)),
                   )

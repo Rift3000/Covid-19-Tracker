@@ -44,19 +44,6 @@ class MostAffectedPanel extends StatelessWidget {
                   width: 10,
                 ),
                 Text(
-                  'Deaths: ' +
-                      countryData[index]['deaths']
-                          .toString()
-                          .replaceAllMapped(reg, mathFunc),
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 14),
-                ),
-                SizedBox(
-                  width: 10,
-                ),
-                Text(
                   'Cases: ' +
                       countryData[index]['cases']
                           .toString()

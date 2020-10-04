@@ -169,7 +169,10 @@ class _HomePageState extends State<HomePage> {
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 20.0,
-                                color: Colors.white,
+                                color: Theme.of(context).brightness ==
+                                        Brightness.light
+                                    ? Colors.white
+                                    : Colors.black,
                               ),
                             )),
                             Icon(
@@ -226,7 +229,7 @@ class _HomePageState extends State<HomePage> {
           BottomNavyBarItem(
               title: Text('News'), icon: Icon(LineAwesomeIcons.newspaper)),
           BottomNavyBarItem(
-              title: Text('FAQS'), icon: Icon(LineAwesomeIcons.info)),
+              title: Text('Myths'), icon: Icon(LineAwesomeIcons.info)),
         ],
       ),
     );
