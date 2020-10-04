@@ -1,17 +1,18 @@
 # covid19tracker
 
-A cool covid 19 flutter app
+* A cool covid 19 flutter app
 
-## Getting Started
+* You will have to sign up for an API key from the NEWS API. Add that key to the secret key file
 
-This project is a starting point for a Flutter application.
+[<img src="https://i.ibb.co/XxSXm6V/Five.png" height="200" width="200">]()
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://i.ibb.co/XxSXm6V/Five.png" alt="Five" border="0">
+<img src="https://i.ibb.co/BrzzgDv/Four.png" alt="Four" border="0">
+<img src="https://i.ibb.co/wSHVW2N/One.png" alt="One" border="0">
+<img src="https://i.ibb.co/wBFJWm7/Seven.png" alt="Seven" border="0">
+<img src="https://i.ibb.co/x6FyVJW/Six.png" alt="Six" border="0">
+<img src="https://i.ibb.co/ZYf2LxT/Three.png" alt="Three" border="0">
+<img src="https://i.ibb.co/s5SnZpg/Two.png" alt="Two" border="0">
+<img src="https://i.ibb.co/jwW29Tn/Eight.png" alt="Eight" border="0">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Covid-19-Tracker" 

@@ -40,7 +40,6 @@ class _HomePageState extends State<HomePage> {
   Future fetchData() async {
     fetchWorldWideData();
     fetchCountryData();
-    print('fetchData called');
   }
 
   @override
